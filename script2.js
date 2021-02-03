@@ -87,6 +87,8 @@ window.onload = function() {
         clearInterval(Interval);
         milliseconds = "00";
         seconds = "00";
+        minutes = "00";
+        hours = "00"
         appendMilliseconds.innerHTML = milliseconds;
         appendSeconds.innerHTML = seconds;
         appendMinutes.innerHTML = minutes;
