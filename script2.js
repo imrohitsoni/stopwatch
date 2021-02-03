@@ -25,9 +25,6 @@ window.onload = function() {
 
         if (milliseconds < 9) {
             appendMilliseconds.innerHTML = "0" + milliseconds;
-            appendSeconds.innerHTML = "0" + seconds;
-            appendMinutes.innerHTML = "0" + minutes;
-            appendHours.innerHTML = "0" + hours;
 
         }
         if (milliseconds > 9) {
